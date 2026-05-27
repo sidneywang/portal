@@ -1,0 +1,16 @@
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ page.title | default: site.title | escape }}</a>
+
+    <nav class="site-nav lang-nav">
+      {%- if page.url contains "/en/" or page.url == "/en.html" -%}
+        {%- assign zh_url = page.url | remove_first: '/en' | default: '/' -%}
+        <a class="page-link lang-switch" href="{{ zh_url | relative_url }}">中文</a>
+      {%- else -%}
+        {%- assign en_url = '/en' | append: page.url -%}
+        <a class="page-link lang-switch" href="{{ en_url | relative_url }}">English</a>
+      {%- endif -%}
+    </nav>
+  </div>
+</header>

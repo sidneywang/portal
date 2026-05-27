@@ -1,0 +1,11 @@
+title: "StoreSnap"
+url: "https://sidneywang.github.io"
+baseurl: "/portal"
+theme: minima
+permalink: pretty
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
