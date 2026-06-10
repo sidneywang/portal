@@ -24,6 +24,16 @@ title: 产品列表
   </div>
 </a>
 
+<a href="{{ "/DeepBalance/" | relative_url }}" class="product-card">
+  <div class="product-card-inner">
+    <img src="{{ "/DeepBalance/images/icon.png" | relative_url }}" alt="" class="product-icon">
+    <div>
+      <h2 class="product-name">DeepBalance+</h2>
+      <p class="product-desc">DeepSeek 余额查看工具。菜单栏速览余额，Widget 实时更新，打开即用。</p>
+    </div>
+  </div>
+</a>
+
 </div>
 
 <div class="site-footer-bar">

@@ -15,6 +15,16 @@ title: Products
   </div>
 </a>
 
+<a href="{{ "/en/DeepBalance/" | relative_url }}" class="product-card">
+  <div class="product-card-inner">
+    <img src="{{ "/DeepBalance/images/icon.png" | relative_url }}" alt="" class="product-icon">
+    <div>
+      <h2 class="product-name">DeepBalance+</h2>
+      <p class="product-desc">Check your DeepSeek balance from the menu bar. Instant glance, widget support, no browser needed.</p>
+    </div>
+  </div>
+</a>
+
 </div>
 
 <div class="site-footer-bar">
