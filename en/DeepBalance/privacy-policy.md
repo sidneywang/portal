@@ -6,7 +6,7 @@ title: Privacy Policy
 
 **Last Updated**: June 10, 2026
 
-DeepBalance (hereinafter referred to as "this App") respects and protects the privacy of all users. This Privacy Policy explains how we collect, use, store, and protect your information.
+DeepBalance+ (hereinafter referred to as "this App") respects and protects the privacy of all users. This Privacy Policy explains how we collect, use, store, and protect your information.
 
 ## 1. Information Collection
 

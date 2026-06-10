@@ -1,11 +1,11 @@
 ---
-title: DeepBalance
+title: DeepBalance+
 layout: product
 ---
 
 <div class="hero">
-  <img src="{{ "/DeepBalance/images/icon.png" | relative_url }}" alt="DeepBalance" class="hero-icon">
-  <h1 class="hero-title">DeepBalance</h1>
+  <img src="{{ "/DeepBalance/images/icon.png" | relative_url }}" alt="DeepBalance+" class="hero-icon">
+  <h1 class="hero-title">DeepBalance+</h1>
   <p class="hero-subtitle">DeepSeek balance at a glance</p>
   <p class="hero-desc">Check your DeepSeek account balance from the menu bar.<br>Widget support, instant refresh — no browser needed.</p>
 </div>
