@@ -11,8 +11,8 @@ layout: product
 </div>
 
 <div class="screenshots">
-  <img src="{{ "/DeepBalance/images/screenshot-1.jpg" | relative_url }}" alt="DeepBalance 截图预览 1">
-  <img src="{{ "/DeepBalance/images/screenshot-2.jpg" | relative_url }}" alt="DeepBalance 截图预览 2">
+  <img src="{{ "/DeepBalance/images/screenshot-1.png" | relative_url }}" alt="DeepBalance 截图预览 1">
+  <img src="{{ "/DeepBalance/images/screenshot-2.png" | relative_url }}" alt="DeepBalance 截图预览 2">
 </div>
 
 <div class="links">
