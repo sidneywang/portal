@@ -15,6 +15,16 @@ title: Products
   </div>
 </a>
 
+<a href="{{ "/en/DoodleLanguage/" | relative_url }}" class="product-card">
+  <div class="product-card-inner">
+    <img src="{{ "/DoodleLanguage/images/icon.png" | relative_url }}" alt="" class="product-icon">
+    <div>
+      <h2 class="product-name">DoodleLanguage</h2>
+      <p class="product-desc">Learn languages by doodling. Draw a cat, remember "cat". Made for kids and visual learners.</p>
+    </div>
+  </div>
+</a>
+
 <a href="{{ "/en/DeepBalance/" | relative_url }}" class="product-card">
   <div class="product-card-inner">
     <img src="{{ "/DeepBalance/images/icon.png" | relative_url }}" alt="" class="product-icon">

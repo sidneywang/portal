@@ -24,6 +24,16 @@ title: 产品列表
   </div>
 </a>
 
+<a href="{{ "/DoodleLanguage/" | relative_url }}" class="product-card">
+  <div class="product-card-inner">
+    <img src="{{ "/DoodleLanguage/images/icon.png" | relative_url }}" alt="" class="product-icon">
+    <div>
+      <h2 class="product-name">DoodleLanguage</h2>
+      <p class="product-desc">画涂鸦学外语。画一只猫，记住 "cat"。专为儿童和视觉型学习者设计。</p>
+    </div>
+  </div>
+</a>
+
 <a href="{{ "/DeepBalance/" | relative_url }}" class="product-card">
   <div class="product-card-inner">
     <img src="{{ "/DeepBalance/images/icon.png" | relative_url }}" alt="" class="product-icon">
