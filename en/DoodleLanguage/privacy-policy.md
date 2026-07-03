@@ -53,7 +53,6 @@ This App integrates the following third-party services:
 - **Doodle data**: Stored locally in the app's `Documents` directory, synced via iCloud across your devices
 - **Voice recordings**: Stored locally in `Library/Application Support`, not synced via iCloud
 - **Preferences**: Stored in `UserDefaults`, device-local only
-- **Quota data**: Stored in a local file
 
 ## 5. Children's Privacy
 
