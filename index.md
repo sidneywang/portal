@@ -34,15 +34,25 @@ title: 产品列表
   </div>
 </a>
 
-<a href="{{ "/DeepBalance/" | relative_url }}" class="product-card">
-  <div class="product-card-inner">
-    <img src="{{ "/DeepBalance/images/icon.png" | relative_url }}" alt="" class="product-icon">
-    <div>
-      <h2 class="product-name">DeepBalance+</h2>
-      <p class="product-desc">DeepSeek 余额查看工具。菜单栏速览余额，Widget 实时更新，打开即用。</p>
+  <a href="{{ "/LanStats/" | relative_url }}" class="product-card">
+    <div class="product-card-inner">
+      <img src="{{ "/LanStats/images/icon.png" | relative_url }}" alt="" class="product-icon">
+      <div>
+        <h2 class="product-name">LanStats</h2>
+        <p class="product-desc">局域网资源监控。菜单栏常驻，自动发现设备，实时查看 CPU、内存、磁盘、网络。</p>
+      </div>
     </div>
-  </div>
-</a>
+  </a>
+
+  <a href="{{ "/DeepBalance/" | relative_url }}" class="product-card">
+    <div class="product-card-inner">
+      <img src="{{ "/DeepBalance/images/icon.png" | relative_url }}" alt="" class="product-icon">
+      <div>
+        <h2 class="product-name">DeepBalance+</h2>
+        <p class="product-desc">DeepSeek 余额查看工具。菜单栏速览余额，Widget 实时更新，打开即用。</p>
+      </div>
+    </div>
+  </a>
 
 </div>
 
