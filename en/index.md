@@ -25,15 +25,25 @@ title: Products
   </div>
 </a>
 
-<a href="{{ "/en/DeepBalance/" | relative_url }}" class="product-card">
-  <div class="product-card-inner">
-    <img src="{{ "/DeepBalance/images/icon.png" | relative_url }}" alt="" class="product-icon">
-    <div>
-      <h2 class="product-name">DeepBalance+</h2>
-      <p class="product-desc">Check your DeepSeek balance from the menu bar. Instant glance, widget support, no browser needed.</p>
+  <a href="{{ "/en/LanStats/" | relative_url }}" class="product-card">
+    <div class="product-card-inner">
+      <img src="{{ "/LanStats/images/icon.png" | relative_url }}" alt="" class="product-icon">
+      <div>
+        <h2 class="product-name">LanStats</h2>
+        <p class="product-desc">Monitor LAN resource usage from your menu bar. Auto-discover devices, real-time CPU, memory, disk, and network metrics.</p>
+      </div>
     </div>
-  </div>
-</a>
+  </a>
+
+  <a href="{{ "/en/DeepBalance/" | relative_url }}" class="product-card">
+    <div class="product-card-inner">
+      <img src="{{ "/DeepBalance/images/icon.png" | relative_url }}" alt="" class="product-icon">
+      <div>
+        <h2 class="product-name">DeepBalance+</h2>
+        <p class="product-desc">Check your DeepSeek balance from the menu bar. Instant glance, widget support, no browser needed.</p>
+      </div>
+    </div>
+  </a>
 
 </div>
 
