@@ -15,6 +15,16 @@ title: Products
   </div>
 </a>
 
+<a href="{{ "/en/AImger/" | relative_url }}" class="product-card">
+  <div class="product-card-inner">
+    <img src="{{ "/AImger/images/icon.png" | relative_url }}" alt="" class="product-icon">
+    <div>
+      <h2 class="product-name">AImger</h2>
+      <p class="product-desc">AI photo organizer. Select a folder, one-click classify, 3-card parallel processing, smart management.</p>
+    </div>
+  </div>
+</a>
+
 <a href="{{ "/en/DoodleLanguage/" | relative_url }}" class="product-card">
   <div class="product-card-inner">
     <img src="{{ "/DoodleLanguage/images/icon.png" | relative_url }}" alt="" class="product-icon">

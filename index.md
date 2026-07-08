@@ -24,6 +24,16 @@ title: 产品列表
   </div>
 </a>
 
+<a href="{{ "/AImger/" | relative_url }}" class="product-card">
+  <div class="product-card-inner">
+    <img src="{{ "/AImger/images/icon.png" | relative_url }}" alt="" class="product-icon">
+    <div>
+      <h2 class="product-name">AImger</h2>
+      <p class="product-desc">AI 照片分类工具。选择文件夹，一键分类，三卡片并行处理，智能管理照片库。</p>
+    </div>
+  </div>
+</a>
+
 <a href="{{ "/DoodleLanguage/" | relative_url }}" class="product-card">
   <div class="product-card-inner">
     <img src="{{ "/DoodleLanguage/images/icon.png" | relative_url }}" alt="" class="product-icon">
