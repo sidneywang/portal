@@ -10,6 +10,7 @@
   {%- endfor -%}
   <link rel="icon" href="{{ fav | relative_url }}" type="image/png">
   <link rel="apple-touch-icon" href="{{ fav | relative_url }}">
+  <title>{{ page.title | default: "应用合集" | escape }}</title>
   {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
