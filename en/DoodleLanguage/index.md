@@ -21,6 +21,13 @@ layout: product
   <img src="{{ "/en/DoodleLanguage/images/screenshot-4.jpg" | relative_url }}" alt="DoodleLanguage screenshot 4">
 </div>
 
+<div class="app-preview">
+  <h2>App Preview</h2>
+  <video controls preload="metadata" poster="{{ "/DoodleLanguage/images/screenshot-1.jpg" | relative_url }}">
+    <source src="{{ "/DoodleLanguage/images/app-preview.mp4" | relative_url }}" type="video/mp4">
+  </video>
+</div>
+
 <div class="links">
   <a href="{{ "/en/DoodleLanguage/support/" | relative_url }}" class="link-card">Support</a>
   <a href="{{ "/en/DoodleLanguage/privacy-policy/" | relative_url }}" class="link-card">Privacy Policy</a>
