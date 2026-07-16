@@ -1,6 +1,7 @@
 ---
 title: DoodleLanguage
 layout: product
+description: "DoodleLanguage: sketch a doodle and our AI instantly recognizes it and reads the matching word aloud. Learn 7 languages — built for kids and visual learners."
 ---
 
 <div class="hero">

@@ -1,6 +1,7 @@
 ---
 title: DoodleLanguage
 layout: product
+description: "DoodleLanguage（涂鸦学英语）：画一幅涂鸦，AI 即时识别并朗读对应外语单词，支持中英日韩法西德七种语言，适合儿童与视觉型学习者。"
 ---
 
 <div class="hero">
