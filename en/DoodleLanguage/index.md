@@ -15,17 +15,13 @@ layout: product
 </div>
 
 <div class="screenshots">
+  <video controls preload="metadata" poster="{{ "/DoodleLanguage/images/screenshot-1.jpg" | relative_url }}">
+    <source src="{{ "/DoodleLanguage/images/app-preview.mp4" | relative_url }}" type="video/mp4">
+  </video>
   <img src="{{ "/en/DoodleLanguage/images/screenshot-1.jpg" | relative_url }}" alt="DoodleLanguage screenshot 1">
   <img src="{{ "/en/DoodleLanguage/images/screenshot-2.jpg" | relative_url }}" alt="DoodleLanguage screenshot 2">
   <img src="{{ "/en/DoodleLanguage/images/screenshot-3.jpg" | relative_url }}" alt="DoodleLanguage screenshot 3">
   <img src="{{ "/en/DoodleLanguage/images/screenshot-4.jpg" | relative_url }}" alt="DoodleLanguage screenshot 4">
-</div>
-
-<div class="app-preview">
-  <h2>App Preview</h2>
-  <video controls preload="metadata" poster="{{ "/DoodleLanguage/images/screenshot-1.jpg" | relative_url }}">
-    <source src="{{ "/DoodleLanguage/images/app-preview.mp4" | relative_url }}" type="video/mp4">
-  </video>
 </div>
 
 <div class="links">

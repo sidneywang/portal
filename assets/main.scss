@@ -78,22 +78,17 @@
   transform: scale(1.02);
 }
 
-.app-preview {
-  margin: 2.5rem 0;
-  text-align: center;
-}
-
-.app-preview h2 {
-  font-size: 1.5rem;
-  color: #2c3e50;
-  margin: 0 0 1.5rem;
-}
-
-.app-preview video {
-  width: 280px;
+.screenshots video {
+  width: 220px;
   max-width: 100%;
-  border-radius: 12px;
+  height: auto;
+  border-radius: 8px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.screenshots video:hover {
+  transform: scale(1.02);
 }
 
 .links {

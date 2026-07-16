@@ -15,17 +15,13 @@ layout: product
 </div>
 
 <div class="screenshots">
+  <video controls preload="metadata" poster="{{ "/DoodleLanguage/images/screenshot-1.jpg" | relative_url }}">
+    <source src="{{ "/DoodleLanguage/images/app-preview.mp4" | relative_url }}" type="video/mp4">
+  </video>
   <img src="{{ "/DoodleLanguage/images/screenshot-1.jpg" | relative_url }}" alt="DoodleLanguage 截图 1">
   <img src="{{ "/DoodleLanguage/images/screenshot-2.jpg" | relative_url }}" alt="DoodleLanguage 截图 2">
   <img src="{{ "/DoodleLanguage/images/screenshot-3.jpg" | relative_url }}" alt="DoodleLanguage 截图 3">
   <img src="{{ "/DoodleLanguage/images/screenshot-4.jpg" | relative_url }}" alt="DoodleLanguage 截图 4">
-</div>
-
-<div class="app-preview">
-  <h2>演示视频</h2>
-  <video controls preload="metadata" poster="{{ "/DoodleLanguage/images/screenshot-1.jpg" | relative_url }}">
-    <source src="{{ "/DoodleLanguage/images/app-preview.mp4" | relative_url }}" type="video/mp4">
-  </video>
 </div>
 
 <div class="links">
