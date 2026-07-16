@@ -3,7 +3,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-site-verification" content="D32ukbpdQI1Bt582gbNG7hwflOONIrD12ML32yqqAZs">
-  <link rel="icon" href="{{ '/StoreSnap/images/icon.png' | relative_url }}" type="image/png">
+  {%- assign products = "StoreSnap,AImger,DoodleLanguage,LanStats,DeepBalance" | split: "," -%}
+  {%- assign fav = "/StoreSnap/images/icon.png" -%}
+  {%- for p in products -%}
+    {%- if page.url contains p -%}{%- assign fav = p | prepend: "/" | append: "/images/icon.png" -%}{%- endif -%}
+  {%- endfor -%}
+  <link rel="icon" href="{{ fav | relative_url }}" type="image/png">
+  <link rel="apple-touch-icon" href="{{ fav | relative_url }}">
   {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
