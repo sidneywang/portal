@@ -35,14 +35,17 @@
 }
 
 .screenshots {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
   margin: 2rem 0;
 }
 
 .screenshots img {
-  width: 100%;
+  width: 220px;
+  max-width: 100%;
+  height: auto;
   border-radius: 8px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.1);
   transition: transform 0.2s;
