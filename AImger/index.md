@@ -20,10 +20,10 @@ layout: product
 
 <h2 class="screenshots-title">iOS</h2>
 <div class="screenshots">
-  <img src="{{ "/AImger/images/iphone-1.png" | relative_url }}" alt="AImger iOS - 照片网格">
-  <img src="{{ "/AImger/images/iphone-2.png" | relative_url }}" alt="AImger iOS - 选取分类">
-  <img src="{{ "/AImger/images/iphone-3.png" | relative_url }}" alt="AImger iOS - 批量处理">
   <img src="{{ "/AImger/images/iphone-4.png" | relative_url }}" alt="AImger iOS - 自定义分类">
+  <img src="{{ "/AImger/images/iphone-3.png" | relative_url }}" alt="AImger iOS - 批量处理">
+  <img src="{{ "/AImger/images/iphone-2.png" | relative_url }}" alt="AImger iOS - 选取分类">
+  <img src="{{ "/AImger/images/iphone-1.png" | relative_url }}" alt="AImger iOS - 照片网格">
 </div>
 
 <h2 class="screenshots-title">macOS</h2>
