@@ -18,19 +18,19 @@ layout: product
   </a>
 </div>
 
-<h2 class="screenshots-title">macOS</h2>
-<div class="screenshots screenshots--col">
-  <img src="{{ "/AImger/images/mac-1-en.png" | relative_url }}" alt="AImger macOS - Select Folder">
-  <img src="{{ "/AImger/images/mac-2-en.png" | relative_url }}" alt="AImger macOS - Live Classifying">
-  <img src="{{ "/AImger/images/mac-3-en.png" | relative_url }}" alt="AImger macOS - Classification Results">
-</div>
-
 <h2 class="screenshots-title">iOS</h2>
 <div class="screenshots">
   <img src="{{ "/AImger/images/iphone-1.png" | relative_url }}" alt="AImger iOS - Photo Grid">
   <img src="{{ "/AImger/images/iphone-2.png" | relative_url }}" alt="AImger iOS - Select & Sort">
   <img src="{{ "/AImger/images/iphone-3.png" | relative_url }}" alt="AImger iOS - Batch Processing">
   <img src="{{ "/AImger/images/iphone-4.png" | relative_url }}" alt="AImger iOS - Custom Categories">
+</div>
+
+<h2 class="screenshots-title">macOS</h2>
+<div class="screenshots screenshots--col">
+  <img src="{{ "/AImger/images/mac-1-en.png" | relative_url }}" alt="AImger macOS - Select Folder">
+  <img src="{{ "/AImger/images/mac-2-en.png" | relative_url }}" alt="AImger macOS - Live Classifying">
+  <img src="{{ "/AImger/images/mac-3-en.png" | relative_url }}" alt="AImger macOS - Classification Results">
 </div>
 
 
