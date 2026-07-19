@@ -17,6 +17,7 @@ layout: product
     App Store 下载
   </a>
 </div>
+
 <div class="screenshots">
   <h2 class="screenshots-title">macOS</h2>
   <img src="{{ "/AImger/images/mac-1.png" | relative_url }}" alt="AImger macOS - 选择文件夹">
