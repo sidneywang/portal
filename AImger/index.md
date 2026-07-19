@@ -17,6 +17,18 @@ layout: product
     App Store 下载
   </a>
 </div>
+<div class="screenshots">
+  <h2 class="screenshots-title">macOS</h2>
+  <img src="{{ "/AImger/images/mac-1.png" | relative_url }}" alt="AImger macOS - 选择文件夹">
+  <img src="{{ "/AImger/images/mac-2.png" | relative_url }}" alt="AImger macOS - 实时分类">
+  <img src="{{ "/AImger/images/mac-3.png" | relative_url }}" alt="AImger macOS - 分类完成">
+  <h2 class="screenshots-title">iOS</h2>
+  <img src="{{ "/AImger/images/ipad-1.png" | relative_url }}" alt="AImger iOS - 照片网格">
+  <img src="{{ "/AImger/images/ipad-2.png" | relative_url }}" alt="AImger iOS - 分类结果">
+  <img src="{{ "/AImger/images/ipad-3.png" | relative_url }}" alt="AImger iOS - 设置">
+  <img src="{{ "/AImger/images/ipad-4.png" | relative_url }}" alt="AImger iOS - 自定义分类">
+</div>
+
 
 <div class="links">
   <a href="{{ "/AImger/support/" | relative_url }}" class="link-card">技术支持</a>
