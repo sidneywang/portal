@@ -4,7 +4,7 @@
 @import "minima";
 
 .wrapper {
-  max-width: 1100px !important;
+  max-width: 1100px;
 }
 
 .hero {
@@ -75,12 +75,12 @@
 }
 
 .screenshots--col img {
-  width: 600px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 800px;
 }
 
 .screenshots img {
-  width: 320px;
+  width: 460px;
   max-width: 100%;
   height: auto;
   border-radius: 8px;
@@ -93,7 +93,7 @@
 }
 
 .screenshots video {
-  width: 320px;
+  width: 460px;
   max-width: 100%;
   height: auto;
   border-radius: 8px;
