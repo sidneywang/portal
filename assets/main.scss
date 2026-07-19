@@ -1,6 +1,10 @@
 ---
 ---
 
+.wrapper {
+  max-width: 1100px;
+}
+
 @import "minima";
 
 .hero {
@@ -64,12 +68,15 @@
   gap: 1.5rem;
   margin: 2rem 0;
 }
+
 .screenshots--col {
   flex-direction: column;
   align-items: center;
 }
+
 .screenshots--col img {
   width: 600px;
+  max-width: 100%;
 }
 
 .screenshots img {
@@ -97,6 +104,7 @@
 .screenshots video:hover {
   transform: scale(1.02);
 }
+
 .screenshots-title {
   width: 100%;
   text-align: center;
