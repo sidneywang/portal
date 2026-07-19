@@ -18,12 +18,15 @@ layout: product
   </a>
 </div>
 
+<h2 class="screenshots-title">macOS</h2>
 <div class="screenshots">
-  <h2 class="screenshots-title">macOS</h2>
   <img src="{{ "/AImger/images/mac-1-en.png" | relative_url }}" alt="AImger macOS - Select Folder">
   <img src="{{ "/AImger/images/mac-2-en.png" | relative_url }}" alt="AImger macOS - Live Classifying">
   <img src="{{ "/AImger/images/mac-3-en.png" | relative_url }}" alt="AImger macOS - Classification Results">
-  <h2 class="screenshots-title">iOS</h2>
+</div>
+
+<h2 class="screenshots-title">iOS</h2>
+<div class="screenshots">
   <img src="{{ "/AImger/images/ipad-1.png" | relative_url }}" alt="AImger iOS - Photo Grid">
   <img src="{{ "/AImger/images/ipad-2.png" | relative_url }}" alt="AImger iOS - Classification Results">
   <img src="{{ "/AImger/images/ipad-3.png" | relative_url }}" alt="AImger iOS - Settings">
