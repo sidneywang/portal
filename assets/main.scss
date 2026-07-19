@@ -64,6 +64,10 @@
   gap: 1.5rem;
   margin: 2rem 0;
 }
+.screenshots--col {
+  flex-direction: column;
+  align-items: center;
+}
 
 .screenshots img {
   width: 280px;
